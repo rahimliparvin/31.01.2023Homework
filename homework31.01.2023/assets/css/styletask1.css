@@ -1,0 +1,243 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.layout {
+    margin: 20px;
+    border: 5px solid black;
+}
+
+
+.row {
+    display: flex;
+}
+
+.col-1 {
+    width: 8.33%;
+}
+
+.col-2 {
+    width: 16.66%;
+}
+
+.col-3 {
+    width: 25%;
+}
+
+.col-4 {
+    width: 33.33%;
+}
+
+.col-5 {
+    width: 41.66%;
+}
+
+.col-6 {
+    width: 50%;
+}
+
+.col-7 {
+    width: 58.33%;
+}
+
+.col-8 {
+    width: 66.66%;
+}
+
+.col-9 {
+    width: 75%;
+}
+
+.col-10 {
+    width: 83.33%;
+}
+
+.col-11 {
+    width: 91.66%;
+}
+
+.col-12 {
+    width: 100%;
+}
+
+.container {
+    width: 90%;
+}
+
+
+#navbarupfull {
+    margin-top: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#navbarupfull .navbarup {
+    background-color: orange;
+    height: 50px;
+}
+
+#navbardownfull {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#navbardownfull .navbardown1-2-3 {
+    display: flex;
+    margin-top: 20px;
+}
+
+#navbardownfull .navbardown1-2-3 .navbardown1share {
+
+    width: 33.33%;
+    height: 20px;
+    background-color: black;
+}
+
+#navbardownfull .navbardown1-2-3 .navbardown2share {
+
+    margin-left: 5px;
+    width: 33.33%;
+    height: 20px;
+    background-color: black;
+}
+
+#navbardownfull .navbardown1-2-3 .navbardown3share {
+
+    margin-left: 5px;
+    width: 33.33%;
+    height: 20px;
+    background-color: black;
+}
+
+#navbardownfull .navbardown4-5-6 {
+    display: flex;
+    margin-top: 20px;
+
+}
+
+#navbardownfull .navbardown4-5-6 .navbardown4share {
+    margin-left: 5px;
+    width: 33.33%;
+    height: 20px;
+    background-color: black;
+}
+
+#navbardownfull .navbardown4-5-6 .navbardown5share {
+    margin-left: 5px;
+    width: 33.33%;
+    height: 20px;
+    background-color: black;
+}
+
+#navbardownfull .navbardown4-5-6 .navbardown6share {
+    margin-left: 5px;
+    width: 33.33%;
+    height: 20px;
+    background-color: black;
+}
+
+#navbardownfull .navbardown7-8-9 {
+    display: flex;
+    margin-top: 20px;
+}
+
+#navbardownfull .navbardown7-8-9 .navbardown7share {
+    margin-left: 5px;
+    width: 33.33%;
+    height: 20px;
+    background-color: black;
+}
+
+#navbardownfull .navbardown7-8-9 .navbardown8share {
+    margin-left: 5px;
+    width: 33.33%;
+    height: 20px;
+    background-color: black;
+}
+
+#navbardownfull .navbardown7-8-9 .navbardown9share {
+    margin-left: 5px;
+    width: 33.33%;
+    height: 20px;
+    background-color: black;
+}
+
+
+
+main .fullmain {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+main .fullmain .mainleft {
+    height: 340px;
+    background-color: orange;
+}
+
+main .fullmain .maincenterfirst {
+    height: 160px;
+    background-color: orange;
+    ;
+    margin-left: 20px;
+}
+
+main .fullmain .maincentersecond {
+    height: 160px;
+    background-color: orange;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+main .fullmain .mainrightfirst {
+    height: 60px;
+    background-color: black;
+    margin-left: 20px;
+}
+
+main .fullmain .mainrightsecond {
+    height: 60px;
+    background-color: black;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+
+main .fullmain .mainrightthird {
+    height: 60px;
+    background-color: black;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+
+main .fullmain .mainrightfourth {
+    height: 60px;
+    background-color: black;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+
+main .fullmain .mainrightfifth {
+    height: 60px;
+    background-color: black;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
+footer .end {
+    background-color: orange;
+    height: 50px;
+
+}

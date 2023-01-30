@@ -1,0 +1,153 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.row {
+    display: flex;
+}
+
+.col-1 {
+    width: 8.33%;
+}
+
+.col-2 {
+    width: 16.66%;
+}
+
+.col-3 {
+    width: 25%;
+}
+
+.col-4 {
+    width: 33.33%;
+}
+
+.col-5 {
+    width: 41.66%;
+}
+
+.col-6 {
+    width: 50%;
+}
+
+.col-7 {
+    width: 58.33%;
+}
+
+.col-8 {
+    width: 66.66%;
+}
+
+.col-9 {
+    width: 75%;
+}
+
+.col-10 {
+    width: 83.33%;
+}
+
+.col-11 {
+    width: 91.66%;
+}
+
+.col-12 {
+    width: 100%;
+}
+
+.container {
+    width: 100%;
+}
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+header .nav {
+    background-color: rgb(83, 137, 236);
+    height:80px;
+}
+header .nav h2{
+    margin-left: 25px;
+    margin-top: 25px;
+    color: white;
+    display: inline-block;
+    
+}
+#sectionfirst{
+    margin-top: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+#sectionfirst .maincontent{
+    background-color: rgb(15, 207, 15);
+    height: 260px;
+}
+#sectionfirst .maincontent h2{
+    color: white;
+    text-align: center;
+    padding-top: 120px;
+}
+#sectionfirst .sidebar{
+    background-color:rgb(182, 26, 182);
+    height: 260px;
+    margin-left: 5px;
+}
+#sectionfirst .sidebar h2{
+    color: white;
+     text-align: center;
+    padding-top: 120px;
+}
+
+#sectionsecond{
+margin-top: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#sectionsecond .twin1{
+background-color: orange;
+height: 180px;
+}
+#sectionsecond .twin1 h2{
+color: white;
+text-align: center;
+padding-top: 80px;
+}
+#sectionsecond .twin2{
+background-color: orange;
+height: 180px;
+margin-left: 5px;
+}
+#sectionsecond .twin2 h2{
+color: white;
+text-align: center;
+padding-top: 80px;
+}
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+footer .end {
+    background-color: dodgerblue;
+    height: 60px;
+    margin-top: 5px;
+}
+footer .end h2{
+    color: white;
+    display: inline-block;
+    margin-top: 20px;
+    margin-left: 25px;
+}
+.layout{
+    margin: 30px;
+    border: 5px solid gray;
+
+}
